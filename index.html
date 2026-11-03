@@ -3,34 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animal view</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header> 
+    <header class="header_section"> 
         <h1>Welcome to the Interactive Reveal What’s that Animal UI</h1>
     </header>
-    <section>
+    <section class="Description_section">
         <h2> Click on the buttons below to reveal the animal images </h2>
     </section>
-    <section>
+    <section class="main_content">
         <!-- Animals -->
-        <div>
+        <div class="animal_div">
             <span>
-                <img src="tabby-cat.jpg" alt="">
+                <img class="animal_img" src="tabby-cat.jpg" alt="">
             </span>
+            <button> Hide Result</button>
         </div>
-        <div>
+        <div  >
             <span>
-                <img src="dog.jpg" alt="">
+                <img class="animal_img" src="dog.jpg" alt="">
             </span>
+            <button>Hide Result</button>
         </div>
-        <div>
+        <div >
             <span>
-                <img src="cow.jpg" alt="">
+                <img class="animal_img" src="cow.jpg" alt="">
             </span>
+            <button>Hide Result</button>
         </div>
+    </section>
 
-        <!-- reveal buttons -->
+   <section class="main_buttons">
+     <!-- reveal buttons -->
         <div>
             <button>Reveal a CAT</button>
         </div>
@@ -40,7 +46,8 @@
         <div>
             <button>Reveal a COW</button>
         </div>
-    </section>
-
+   </section>
+       
+   
 </body>
 </html>

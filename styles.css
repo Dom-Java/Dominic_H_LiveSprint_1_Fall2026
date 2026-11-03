@@ -1,3 +1,51 @@
 :root {
+--bg-main: #27a092;
+--bg-header: #1d766b;
+--bg-footer: #1d766b;
+}
+body{
+    background: var(--bg-main);
+}
 
+
+.header_section{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-header);
+
+   
+
+}
+
+.Description_section{
+     flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animal_img{
+    width: 20%;
+    height: 20%;
+}
+.animal_div{
+    padding: 0;
+    gap: 0;
+    margin: 0;
+}
+.main_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+.main_buttons{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    justify-content: space-between;
 }

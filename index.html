@@ -15,39 +15,39 @@
     </section>
     <section class="main_content">
         <!-- Animals -->
-        <div class="animal_div">
+        <div class="animal_div" id="cat">
             <span>
                 <img class="animal_img" src="tabby-cat.jpg" alt="">
             </span>
-            <button> Hide Result</button>
+            <button type="button" id="hideCat" onclick = "hideCat()" > Hide Result</button>
         </div>
-        <div  >
+        <div class="animal_div" id="dog">
             <span>
                 <img class="animal_img" src="dog.jpg" alt="">
             </span>
-            <button>Hide Result</button>
+            <button type="button" id="hideDog" onclick = "hideDog()">Hide Result</button>
         </div>
-        <div >
+        <div class="animal_div" id="cow">
             <span>
                 <img class="animal_img" src="cow.jpg" alt="">
             </span>
-            <button>Hide Result</button>
+            <button type="button" id="hideCow" onclick = "hideCow()">Hide Result</button>
         </div>
     </section>
 
    <section class="main_buttons">
      <!-- reveal buttons -->
         <div>
-            <button>Reveal a CAT</button>
+            <button type="button" id="showCat" onclick= "visibleCat()">Reveal a CAT</button>
         </div>
         <div>
-            <button>Reveal a DOG</button>
+            <button type="button" id="showDog" onclick= "visibleDog()">Reveal a DOG</button>
         </div>
         <div>
-            <button>Reveal a COW</button>
+            <button type="button" id="showCow" onclick= "visibleCow()">Reveal a COW</button>
         </div>
    </section>
        
-   
+   <script src="app.js"></script>
 </body>
 </html>

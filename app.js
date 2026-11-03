@@ -1,4 +1,4 @@
-
+//click the hide buttons first on the html file, show will only work after it is hidden
 
 const dog = document.getElementById("dog")
 const cat = document.getElementById("cat");
